@@ -13,3 +13,16 @@
     text-align: center;
     color: rgb(255, 255, 255);
 }
+#contact{
+    background-image: url("../images/backgrounds/c_image.jpg");
+    background-size: cover;
+    text-align: center;
+}
+#textarea{
+    height: 300px;
+    width: 700px;
+    color: white;
+}
+#social{
+    text-align: center;
+}
