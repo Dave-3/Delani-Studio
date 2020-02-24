@@ -14,7 +14,7 @@
 * Javascript
 * JQUERY
 ## Link to Github pages
-
+https://dave-3.github.io/Delani-Studio/
 ### License
 *{MIT License.}*
 Copyright (c) {2020} **{David Njenga Mburu}**
