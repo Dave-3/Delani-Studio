@@ -7,7 +7,7 @@ $(document).ready(function(){
 });
 //hover portfolio
 $('.card').hover(function(){
-  $(this).children('.p1').fadeToggle('fast')
+  $(this).children('.p1').fadeToggle();
   
 });
 // message when you contact us
