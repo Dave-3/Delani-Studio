@@ -13,6 +13,12 @@
     text-align: center;
     color: rgb(255, 255, 255);
 }
+.col-lg-4{
+    text-align: center;
+}
+.ontoggle{
+    display: none;
+}
 #contact{
     background-image: url("../images/backgrounds/c_image.jpg");
     background-size: cover;
@@ -24,5 +30,11 @@
     color: white;
 }
 #social{
+    text-align: center;
+}
+#name{
+    text-align: center;
+}
+#year{
     text-align: center;
 }
