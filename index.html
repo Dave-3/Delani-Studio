@@ -74,20 +74,22 @@
             <div class="col-md-12">
                 <h1 style="text-align: center;">PORTFOLIO</h1>
             </div>
-            <div class="col-md-3">
-                <div class="card"> 
+            <div class="col-md-3 card">
                     <div class="card img-fluid">
                         <img class="card-img-top" src="images/portfolio/work4.jpg" alt="">
                     </div>
                     <div class="p1">
                         <p>project name</p>
                     </div>
-                </div> 
+               
             </div>
             <div class="col-md-3">
-                <div class="card img-fluid">
-                    <img class="card-img-top" src="images/portfolio/work3.jpg" alt="">
-                </div>
+                    <div class="card img-fluid">
+                        <img class="card-img-top" src="images/portfolio/work3.jpg" alt="">
+                    </div>
+                    <div>
+
+                    </div> 
             </div>
             <div class="col-md-3">
                 <div class="card img-fluid">
@@ -123,9 +125,13 @@
         <div class="row" >
             <div class="col-md-12" id="contact"><br><br>
                 <h1>CONTACT US</h1>
-                <input type="text" class="bg-transparent" placeholder="Name" >
-                <input type="email" class="bg-transparent" placeholder="Email"><br><br><br>
-                <input type="textarea" id="textarea" class="bg-transparent" placeholder="Your message here..."><br><br>
+                <form onsubmit="messageReceived()"> 
+                    <input type="text" class="bg-transparent" placeholder="Name" id="yourname" required>
+                    <input type="email" class="bg-transparent" placeholder="Email" required><br><br><br>
+                    <input type="textarea" id="textarea" class="bg-transparent" placeholder="Your message here..."><br><br>
+                    <input type="submit">
+                </form>
+                
             </div>
         </div>
         <div class="row">
