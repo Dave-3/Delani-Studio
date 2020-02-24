@@ -42,8 +42,20 @@
     margin: 10px 0;
     position: relative;
     overflow: hidden;
+    border: none;
 }
 .card :hover img{
     transform: scale(1.2);
     transition: ease-in-out;
+}
+.p1{
+    display: none;
+    color: white;
+    padding: 50px 10px;
+    font-weight: 100%;
+    padding-top: 30px;
+    font-size: 1.1em;
+    margin: 20% 5%;
+    position: absolute;
+    transition: all 0.5s ease;
 }
